@@ -1,5 +1,6 @@
 import React from 'react';
 import { TakeNum } from './TakeNum'
+
 export const Home = ({ user }) => {
 
 

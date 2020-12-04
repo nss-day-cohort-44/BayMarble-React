@@ -1,13 +1,13 @@
 import './App.css';
-import { FAQ } from './FAQ';
-import { Home } from './Home'
+import { ApplicationViews } from './ApplicationViews';
+import { NavBar } from './nav/NavBar';
 
 function App() {
     const user = { id: 1, name: "Bryan" }
     return (
         <div className="app">
-            <FAQ />
-            <Home user={user} />
+            <NavBar />
+            <ApplicationViews user={user}/>
         </div>
     );
 }
